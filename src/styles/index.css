@@ -1,0 +1,163 @@
+.menu-container{
+    width: 100%;
+    margin: 0;
+    background-color: #2F302C;
+    display: flex;
+    align-items: center; 
+    color: white;
+    height: 100px;
+}
+
+.container{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10%;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 15% 55% 30%;
+    width: 100%;
+    align-items: center;
+}
+
+.logo{
+    margin: 0;
+}
+
+.search-box{
+    display: inline-flex;
+    border-bottom: 1px solid grey;
+    padding: 5px;
+    width: 90%;
+}
+
+.search-input{
+    border:0;
+    background: transparent;
+}
+
+.search-input:active{
+    border: 0;
+}
+
+.menu-item-container{
+    padding: 5px;
+    align-self: center;
+}
+
+.menu-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.more-items{
+    position: absolute;
+    right: 25%;
+    background-color: white;
+    top: 105px;
+    background-color:  #2F302C;
+    border-radius: 10px;
+    text-align: left;
+    width: 150px;
+    padding: 5px;
+}
+
+.more-button{
+    background: transparent;
+    border: 0;
+    color: white;
+}
+
+.hidden-menu-item-container{
+}
+
+.hidden-text{
+    margin: 0;
+    padding: 5px;
+}
+
+.slick-slider{
+    overflow: hidden;
+}
+
+.slick-track{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slick-slide{
+    border-radius: 50px;
+}
+
+
+.carousel-item{
+    
+}
+
+div img{
+        height: 100%;
+        width: 100%;
+}
+
+.slick-slide > div {
+    transform: scale(0.8);
+    
+}
+.slick-center > div {
+    transform: scale(1.2);
+}
+.carousel-item > img {
+    width: 100%;
+    height: auto;
+}
+
+.slick-cloned > div:nth-child(2) {
+    transform: scale(.6);
+}
+
+.dot{
+    width: 10px;
+    height: 10px;
+    border-radius: 5px;
+    background-color: #2F302C;
+}
+
+.dots-container{
+    display: flex;
+    flex-direction: row;
+    gap: 2px;
+    align-items: center;
+}
+
+.custom-container{
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+}
+
+.slick-prev{
+    display: block;
+    position: absolute;
+    top: 25%;
+}
+
+.slick-next{
+    display: flex;
+    justify-content: end;
+}
+
+.text-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.paginate-buttons{
+    background: transparent;
+    border: 0;
+    font-size: 20px;
+    color: grey;
+}
